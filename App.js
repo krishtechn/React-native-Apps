@@ -3,7 +3,9 @@ import React, { Component } from "react";
 import AwesomeCardWithYoutubeLink from "./components/AwesomeCardWithYoutubeLink";
 import BoxModel from "./components/BoxModel";
 import MultipleStyles from "./components/MultipleStyles";
-
+import TextUtilsApp from "./components/TextUtilsApp";
+import FlexBox from "./components/FlexBox";
+import Position from "./components/Position";
 
 export class App extends Component {
   render() {
@@ -13,8 +15,12 @@ export class App extends Component {
 
         {/* <BoxModel /> */}
 
-        <MultipleStyles />
+        {/* <MultipleStyles /> */}
+        {/* <TextUtilsApp /> */}
 
+        <FlexBox />
+
+        {/* <Position /> */}
       </View>
     );
   }
