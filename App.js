@@ -32,8 +32,7 @@ export class App extends Component {
 
         {/* <Apidata /> */}
 
-        <LoginForms />
-
+        <Text>Hello</Text>
         
       </ScrollView>
     );
